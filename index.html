@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotador</title>
+    <link rel="stylesheet" href="../Anotador de truco/css/style.css">
+</head>
+<body>  
+    <header>
+        <h1>Anotador de Truco </h1>
+    </header>
+
+    <div class="principal visible ">
+        <div class="equipos">
+            <input type="text" id="equipo1" name="" value="" placeholder="Equipo 1"><br>
+            <input type="text" id="equipo2" name="" value="" placeholder="Equipo 2"><br>
+        </div>
+        <div id="botones">
+        
+            <input type="button" value="24 Puntos" id="24puntos">
+            <input type="button" value="30 Puntos" id="30puntos">
+            <input type="button" value="Iniciar" id="iniciar" >
+            <br>
+            
+        </div>
+            
+        </div>  
+        
+            <!--Parte baja-->
+        <div class="secundaria oculto">
+            <div >
+                <div id="Truc">
+                    <button id="btn1">+</button>     <!--Boton "mas" equipo1-->
+                    <span id="equi">Equipo 1</span>
+                </div>
+                <div id="Truc1"> 
+                            
+                            <span id="equi2">Equipo 2</span>
+                            <button id="btn2">+</button>    <!--Boton "mas" equipo2-->
+                </div>
+                <div id="Truc2">
+                                    <img class="img" id="p11" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p12" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p13" src="../Anotador de truco/img/0.png" />
+                </div>
+                <div id="Truc3">
+                                    <img class="img" id="p21" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p22" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p23" src="../Anotador de truco/img/0.png" />
+                </div>
+                <div id="Truc4">
+                                    <img class="img" id="p14" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p15" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p16" src="../Anotador de truco/img/0.png" />
+                </div>
+                <div id="Truc5">
+                                    <img class="img" id="p24" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p25" src="../Anotador de truco/img/0.png" /><br>
+                                    <img class="img" id="p26" src="../Anotador de truco/img/0.png" />
+                </div>
+                   
+             </div>
+               
+                    <div id="baja1">
+                                <button id="btn3">-</button>     <!--Boton "menos" equipo1-->
+                                <span id="puntos1"></span>
+                    </div>
+                            
+                    <div id="baja2"> 
+                                
+                                <span id="puntos2"></span>
+                                <button id="btn4">-</button>    <!--Boton "menos" equipo2-->
+                    </div>
+
+                    <button id="fin"> Fin</button>
+
+            
+            <div >
+                <h3 id="cuanto"></h3>
+            </div>
+
+
+        </div>
+            
+
+       
+
+        
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../Anotador de truco/app/app.js"></script>
+
+</body>
+</html>

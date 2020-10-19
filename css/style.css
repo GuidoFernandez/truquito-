@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:wght@200&display=swap');
+body{
+    background-color: green;
+    font-family: 'Piazzolla', serif;
+}
+/* Pantalla principal */
+header{
+    text-align: center;
+    color: #ffffff;
+}
+.principal{
+    text-align: center;
+    padding-top: 25%;
+    
+}
+img{
+    width: 60px;
+ 
+    
+}
+input[type="text"]{
+    width: 70%;
+    height: 30px;
+    margin-top:20px ;
+}
+input[type="button"]{
+    margin-top: 15px;
+    width: 36%;
+    height: 30px;
+}
+.oculto{
+    display :none;
+    visibility: hidden;
+}
+.visible{
+    display: block;
+    visibility: visible;
+}
+/* Segunda Pantalla*/
+#Truc{
+    width: 48.8%;
+    height: 50px;
+    float: left;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
+    
+}
+#Truc1{
+    width: 48.8%;
+    height: 50px;
+    float: left;
+    border-bottom: white 1px solid;
+    border-left:white 1px solid ;
+}
+#Truc2{
+    width: 48.8%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    border-bottom: white 1px solid;
+    border-right:white 1px solid ;
+    
+}
+#Truc3{
+    width: 48.8%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    float: left;
+    border-bottom: white 1px solid;
+    border-left:white 1px solid ;
+    
+}
+#Truc4{
+    width: 48.8%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    float: left; 
+    border-right:white 1px solid ;   
+    border-bottom: white 1px solid;
+}
+#Truc5{
+    width: 48.8%;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    float: left; 
+    border-left: solid 1px white;
+    border-bottom: white 1px solid;
+}
+#btn1{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    float: left;
+    
+}
+#btn2{
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    float: right;
+}
+#btn3{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    float: left;
+}
+#btn4{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    float: right;
+}
+#equi{
+    text-align: center;
+    background-color: green;
+    border:hidden;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+#equi2{
+    text-align: center;
+    background-color: green;
+    border:hidden;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+#equi::placeholder{
+    color:white
+}
+#baja1{
+    text-align: center;
+    float: left;
+    color:#ffffff
+}
+
+#fin{
+    
+    margin-left: 42%;
+    width: 45px;
+   height: 40px;
+   text-align: center;
+}
+
+#cuanto{
+   color:#ffffff;
+   font-size: 30px;
+   text-align: center;
+}
+
+#baja1{
+    width: 48.8%;
+    height: 50px;
+    float: left;
+    
+    border-right: white 1px solid;
+    
+}
+#baja2{
+    width: 48.8%;
+    height: 50px;
+    float: left;
+    
+    border-left:white 1px solid ;
+}
+
+#puntos1{
+    text-align: center;   
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+#puntos2{
+    padding-left: 60px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    
+}
+
+
